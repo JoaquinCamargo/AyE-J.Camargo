@@ -1,0 +1,30 @@
+int eja = 12+8*3;
+
+Console.Writeline(eja);
+
+int ejb = (12+8)*3;
+Console.Writeline(ejb);
+
+
+int ejc = 50/5+4;
+Console.Writeline(ejc);
+
+
+int ejd = 100-10*2;
+Console.Writeline(ejd);
+
+
+int eje = 15 %2;
+Console.Writeline(eje);
+
+
+int ejf = 20 %5;
+Console.Writeline(ejf);
+
+
+int ejg = 10/2*4
+Console.Writeline(ejg);
+
+
+int ejh = 5+5*10-2
+Console.Writeline(ejh);
