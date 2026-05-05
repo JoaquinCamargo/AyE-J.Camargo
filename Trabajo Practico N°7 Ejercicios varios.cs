@@ -1,4 +1,4 @@
-﻿
+//ejercico 1﻿
         Console.WriteLine("hola dame un numero entero");
         int animal = Convert.ToInt32(Console.ReadLine());
         bool primo = true;
@@ -25,7 +25,7 @@
         {
             Console.WriteLine(animal + " no es primo");
         }
-
+//ejercicio 2
         Console.WriteLine("ingrese un numero para generar la factorial");
         int manteca = Convert.ToInt32(Console.ReadLine());
 
@@ -36,7 +36,7 @@
         }
         Console.WriteLine("el factorial de tu numero es: " + xd);
 
-
+//ejercicio 3
         Console.WriteLine("ingrese un numero");
 
         int n = Convert.ToInt32(Console.ReadLine());
@@ -56,7 +56,7 @@
             st = fibonacci + pt;
         }
 
-
+//ejercicio 4
 
         Console.WriteLine("menú interactivo");
         Console.WriteLine("ingrese 1 para decir hola");
