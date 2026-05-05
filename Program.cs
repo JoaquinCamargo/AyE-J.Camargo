@@ -41,3 +41,61 @@ foreach (char n in texto)
     aux2 = aux + aux2;
 }
 Console.WriteLine(aux2);
+
+//ejercicio 4
+Console.WriteLine("");
+Console.WriteLine("Ingrese un texto largo:");
+string frase3 = Console.ReadLine();
+Console.WriteLine("");
+Console.WriteLine("Ingrese una frase prohibida");
+string fraseprohibida = Console.ReadLine();
+Console.WriteLine("");
+Console.WriteLine("Ingrese una frase para reemplazarla");
+string frasereemplazo = Console.ReadLine();
+string nuevafrase = "";
+if (frase3.Contains(fraseprohibida) == true)
+{
+    nuevafrase = frase3.Replace(fraseprohibida, frasereemplazo);
+}
+Console.WriteLine("");
+Console.WriteLine("Esta es la frase: " + nuevafrase);
+
+
+
+//ejercicio 5
+Console.WriteLine("");
+Console.WriteLine("Ingrese su nombre");
+string nombre = Console.ReadLine();
+Console.WriteLine("");
+Console.WriteLine("Ingrese su apellido");
+string apellido = Console.ReadLine();
+string iniciales = "";
+iniciales = nombre[0] + "." + apellido[0];
+Console.WriteLine("");
+Console.WriteLine("Su nombre es: " + nombre);
+Console.WriteLine("");
+Console.WriteLine("Su apellido es: " + apellido);
+Console.WriteLine("");
+Console.WriteLine("Sus iniciales son: " + iniciales);
+
+
+//ejercicio 6
+Console.WriteLine("");
+Console.WriteLine("Ingrese una palabra para identificar si es un palindromo:");
+String palindromo = Console.ReadLine();
+palindromo = palindromo.ToLower();
+String invertido2 = "";
+foreach (char j in palindromo)
+{
+    invertido2 = j + invertido2;
+}
+if (palindromo == invertido2) 
+{
+    Console.WriteLine("");
+    Console.WriteLine("La palabra '" + palindromo + "' es un palindromo");
+}
+else
+{
+    Console.WriteLine("");
+    Console.WriteLine("La palabra '" + palindromo + "' NO es un palindromo");
+}
