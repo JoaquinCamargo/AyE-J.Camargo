@@ -57,3 +57,23 @@ while (numero != 0)
 }
 Console.Write("el resultado de la suma es: ");
 Console.Write(suma);
+
+
+string ejercicio5(int edading)
+{
+    string regalo;
+    bool pochoclos = false;
+    if (edading > 65 && pochoclos == true)
+    {
+        regalo = "¡Felicidades! Tienes entrada gratuita al cine.";
+        return regalo;
+    }else
+    {
+        regalo = "Compra la entrada o raja de acá";
+        return regalo;
+    }
+
+}
+int edading = convert.ToInt(Console.ReadLine());
+string regalo = ejercicio5(numpar);
+Console.WriteLine(regalo);
